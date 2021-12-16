@@ -1,0 +1,18 @@
+main: bubbles.sabotage.plugin.Main
+name: Sabotage
+version: 1.0
+api-version: 1.16
+author: Bubbles
+description: Turns a Spigot server into a Sabotage gamemode
+commands:
+  sab:
+    description: Controls various sabotage gamemode functions.
+    usage: /sab [start/stop/bomb/kit]
+    permission: sabotage.sab
+    permission-message: You cannot modify sabotage settings.
+  team:
+    description: Changes Team
+    usage: /team [color]
+  kit:
+    description: Changes Kit
+    usage: /kit [kitname]
